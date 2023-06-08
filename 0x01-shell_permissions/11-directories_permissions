@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x 666755
+chmod +x "find . -type d -exec stat -c "%a %n" {} \;"
