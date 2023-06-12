@@ -1,1 +1,2 @@
-dasdidsad
+#!/bin/bash
+input | rev
