@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n 'p;n' <<< "$input"
+awk 'NR % 2 == 1' "$input_file"
